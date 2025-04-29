@@ -1,0 +1,12 @@
+wylosowana_liczba = losuj liczbę od 0 do 100;
+Wyswietl "Podaj liczbę";
+proba = wczytaj();
+dopoki(proba != wylosowana_liczba){
+	jeżeli(proba > wylosowana_liczba){
+		Wyswietl "Za duża";
+	}w przeciwnym wypadku{
+		Wyswietl "Za mała";
+	}
+	Wyswietl "Podaj liczbę";
+	proba = wczytaj();
+}
